@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+main{
+    background-color: rgba(255, 255, 255, 0.179);
+    height: auto;
+    margin: 0 auto;
+    
+    height: 1024px;
+    
+}
+
+
+
+header{
+    background-color: rgb(75, 75, 75);
+    display: flex;
+    padding: 0 50px;
+    justify-content:space-between;
+    align-items: baseline;
+  
+    
+   
+
+}
+.cabecera{
+    height: 500px;
+    background: url(../images/cabecera.jpg) 0 -300px;
+    background-size: cover;
+    color: aliceblue;
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+    
+
+}
+
+
+
+.active{
+    color: rgb(18,146,199,255);
+
+}
+
+
+
+h1{
+    color: aliceblue;
+}
+span{
+    color: rgba(18,146,199,255);
+}
+
+.imput{
+    background-color: rgb(75, 75, 75);
+    font-size: 25px;
+    color: aliceblue;
+    display: flex;
+    padding: 0 50px;
+    justify-content:space-between;
+    
+}
+
+.izquierda{
+    margin: 20px 0 0 0;
+    
+}
+
+.imagenes{
+    display: flex;
+    justify-content:space-around ;
+}
+.separar{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.tex{
+    text-align: center;
+    padding: 150px 0 0 0 ;
+
+
+}
+.text_grande{
+    font-size: 50px;
+}
+
+.parrafos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+footer  {
+    background-color: rgb(18,147,212,255);
+    
+    height: 80px;
+}
+footer p {
+    text-align: center;
+    padding: 30px 0  0 0 ;
+    color: aliceblue;
+}
+    
+
+button{
+    background-color: rgb(232,73,29,255);
+    padding: 5px;
+    border: none;
+    color: aliceblue;
+    
+}
+
+input{
+    padding: 4px;
+}
+
+hr{
+    border:3px solid rgb(18,147,212,255);
+    border-radius:22px;
+    margin: 0%;
+}
+
+
+
+
+.separar1{
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+.separar2{
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+.separar3{
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+
+.parrafos{
+    display: flex;
+    justify-content: CENTER;
+    
+}
+.parrafo1{
+    background-color: rgb(53,66,74,255);
+    padding: 10px;
+    
+    color: aliceblue;
+}
+.parrafo2{
+    
+    background-color: rgb(53,66,74,255);
+    width: 25%;
+    height: 30%;
+    margin: 30px 0 0 60px;
+    color: aliceblue;
+    padding-left: 20px;
+}
+
+.imagen img{
+    width: 737.66px;
+}
+
+.imagen{
+    display: flex;
+    justify-content: space-evenly;
+    width: 71%;
+   
+    
+}
+
+.servicio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+
+
+.servicio1{
+    width: 700px;
+    margin: 0 0 10px 100px ;
+    padding: 10px 0px 10px 10px ;
+    background-color: rgb(230,230,230,255);
+   
+    
+    
+    
+}  
+.servicio2{
+    width: 700px;
+    margin: 0 0 10px 100px ;
+    padding: 10px 0px 10px 10px ;
+    background-color: rgb(230,230,230,255);
+   
+}
+.servicio3{
+    width: 700px;
+    margin: 0 0 10px 100px ;
+    padding: 10px 0px 10px 10px ;
+    background-color: rgb(230,230,230,255);
+   
+}
+h5{
+    margin: 20px 0 20px 250px ;
+    font-size: 20px;
+    width: 700px;
+}
+.hacemos{
+    background-color: rgb(53,66,74,255);
+    width: 25%;
+    height: 30%;
+    margin: -50px 0 0px 20px;
+    
+
+    
+    
+    color: aliceblue;
+    padding-left: 20px;
+   
+}
+.formulario{
+    
+    display: flex;
+    
+    justify-content: space-evenly;
+    
+    
+    
+}
+
+input[type='text']{
+    padding-right: 400px;
+}
+input[type='email']{
+    padding-right: 400px;
+}
+input[type='phone']{
+    padding-right: 400px;
+}
+
+.contacto{
+    margin: 0 0px 20px 300px ;
+}
+.boton{
+   padding:5px 280px 5px 255px;
+   
+}
+
+.mapa{
+    display: flex;
+    
+
+}
+.parrafo4{
+    background-color: rgb(53,66,74,255);
+    width: 380px;
+    margin: 0 0 10px 0 ;
+    
+    margin-top: 30px;
+    color: aliceblue;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
